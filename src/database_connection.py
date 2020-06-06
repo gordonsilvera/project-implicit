@@ -16,7 +16,7 @@ class databaseConnection():
             configs.CREDENTIALS_FILEPATH
         self.configs_filepath = configs.CONFIGS_FILEPATH
         self.database_type = self._check_database_type(database_type)
-        self.update_database_credentials()
+        self.credentials = self.update_database_credentials()
 
     def _check_database_type(self, database_type):
         if database_type.lower() in self.supported_databases:

@@ -1,3 +1,4 @@
 pyreadstat
 savReaderWriter
 google-cloud-bigquery
+google-cloud-storage
