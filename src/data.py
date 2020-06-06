@@ -1,8 +1,9 @@
 import pandas
 import re
 import os
-from database_connection import databaseConnection
 
+from database_connection import databaseConnection
+import configs
 
 class dataBlob():
     """Convert various forms data of data within a single class.
@@ -123,7 +124,17 @@ class dataBlob():
     def to_csv(self, path, **kwargs):
         return self.df.to_csv(path, **kwargs)
 
-    def to_db(self, destination_table, project_id=None, table_partition=None, table_params=None, **kwargs):
+    def to_db(
+        self, 
+        destination_table, 
+        project_id=None, 
+        table_partition=None, 
+        table_params=None, 
+        partition=None,
+        if_exists='replace',
+        parameters=None,
+        **kwargs
+    ):
         """Output dataframe to a database destination table.
         Currently only supports BigQuery.
         """
@@ -134,19 +145,14 @@ class dataBlob():
         self.partition = table_partition
         self.params = table_params
         self.destination_table_id = self._replace_table_parameters(
-            destination_table, partition, params)
+            destination_table, partition, parameters)
         if conn.database_type=='bigquery':
             self.df.to_gbq(
                 destination_table = self.destination_table_id,
                 project_id=self.project_id,
+                if_exists=if_exists,
                 credentials=conn.database_credentials,
                 **kwargs)
-            # destination_dict = _get_destination_dict(destination_table)
-#             self.df.to_gbq(
-#                 destination_table = '{}.{}'.format(
-#                     destination_dict['dataset_id'],
-#                     destination_dict['table_id'],
-#                 ),
 
     """ METADATA
         Get metadata from data object.

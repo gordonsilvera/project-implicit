@@ -2,3 +2,4 @@ pyreadstat
 savReaderWriter
 google-cloud-bigquery
 google-cloud-storage
+pandas_gbq
