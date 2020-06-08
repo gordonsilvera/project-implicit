@@ -12,10 +12,9 @@ class databaseConnection():
         credentials_filepath=None
     ):
         self.supported_databases = ['bigquery']
-        self.credentials_filepath = credentials_filepath or \
-            configs.CREDENTIALS_FILEPATH
+        self.credentials_filepath = credentials_filepath or configs.CREDENTIALS_FILEPATH
         self.configs_filepath = configs.CONFIGS_FILEPATH
-        self.database_type = self._check_database_type(database_type)
+        self.database_type = self._check_database_type(database_type) 
         self.credentials = self.update_database_credentials()
 
     def _check_database_type(self, database_type):
