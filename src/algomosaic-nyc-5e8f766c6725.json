@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "algomosaic-nyc",
+  "private_key_id": "5e8f766c67253eaef40d5e3f2ad61e7adafe9908",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDPr8l887/Fma43\nSPxofWY3ZpCfZZzrWo8RbDxhteSN5+9baslK0NCgFYdm08/VR0Zp1SjaAWHrqSSE\n02RPdUy3XYSF+0FkRCcwPYEuwefROu+gyPTYQunnMEUHLg3qvk4x3f9QkL/tPDyp\neKEBzayE9t8sSHJaplYrobvewayxM9O3QI+cDQMXnC266aXTGiFAHaxOpAb/pRE5\nrWCbuZj5DA4b4YMQFDXWnxUNr87yZLhBzKxKCYwKqTUavJLYh+tKJSQqH6FJ3v4e\nIRVZe9nrxFTrJo8B7Gj5aP2bUjflEZr0Fjcs/tjz8L5/zojZTJH4FWsA15+nJjWZ\n4eUt1h3lAgMBAAECggEAE0QT1V8JMavtcNx46bqEQmxlyxuSgHSwo+Wd/lRwxMc4\nuYrA7ItNZyRIIL5SX88SVZv8A6kwK7vPkvDHM+XGPZZTxlgF+2alGgECnFNJjWvB\nsfEiYXNnnlYoeR+JE/ceatrUpeUfoMK/P9tcWD37nIQINOPtk8ItaTPCKUpfGjrx\nLyKwIKZ2tEPWjeFTuvRtM3TOhCk4u32iICpFkp4JK3cB/0ZFjb0NgmSO3LCz0WKa\nrEsuRi7303feOB8oVak2ndr+3JSlxe9Jcm6cK1Me4ZMr08HB7UfLkMkLMPCq5NhP\nWNTPpHM44/avhfEXN0NTzXQcEM8bS6PK6EsoyHjEcQKBgQD2iz7mV8kP7g9S3oBn\nGc1JH+NxOfGGVjENyjmSPgdw6aNmoG2LkUkePvrPLthmEz23mEX01a3hYyS8zOh/\n0XNP96N/pgZs4sbMbw08175AdymqpZHTv3tp8l7y2kBG+hX7ZWSD37KZj+Z9efwR\n0FLtrFYNUb8ih1Zi7IPUIaCj7QKBgQDXpwLvN1Aq4jH4iddFPSLQLBoPlXoPcZSf\nKXNwLGcw3GL4nSZTVYBRU2Fvhs94yPxCgOXAzvHeOBxTwQsHLoNndmY95NJiTDoD\nKmP5cEY7zCVgGa3XcyF6+JzFVrA2tmwxX7x7OSIqqlvBiIBzm/73PP37Fv3fJJvG\nSyrGYiaS2QKBgQDuqLK15grDee6piKwBog+AFvdj9vRf13Xa5ITAlX08h17fDLOe\nZIDEX7EI+E8Q2NVosWYe8O5GfWPlw/HZMZcPtSg3fC9CHnDVGzdUS4BnBTN3dplo\nwjakw7O4ISAR1SuMVYVsxxIr5wn3MyuYzvJIEwimEhkVQq+USWH/6qGHrQKBgH0s\nG6/uU0IQ+SBiIem2irZ6YsYY5TiBnNqlnLPHkj3yLiBQVyaXwltyImQxw8tAHewc\nFT/M3uc1envC2TvZ67vqJX5XiyYzSJj9yfnHCX08CZW2Ugl0ckKGe7ivkKixSit+\nflCn4QUSzR+Qs75nFZ88b8+GkOUswp5ekv2DixBBAoGBAJZD+8YbunG6Z+L70g5c\n1X3W/BowBS1OvIAVVH9K/0yH9P2u8v3A4uxhv6HQDyZPk6kQGiNk9AqD5PG/gAby\nuR0dhbeh2VgSYCxm6luEo6c78I3aaOs/zjQRapad3PIe9pmiKZ3vZTlvqdTyn/cO\nU84T9rRCwO51cIlhXfzGxuYP\n-----END PRIVATE KEY-----\n",
+  "client_email": "project-implicit@algomosaic-nyc.iam.gserviceaccount.com",
+  "client_id": "116692742337241421420",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/project-implicit%40algomosaic-nyc.iam.gserviceaccount.com"
+}

@@ -53,12 +53,27 @@ class databaseConnection():
         self.credentials_filepath = credentials_filepath
 
     def _update_config_file(self, file, variable, replace_text):
+        new_file = ''
+        with open(file) as f_in:
+            for cnt, line in enumerate(f_in):
+                if line.startswith(variable):
+                    new_file += variable + " = '" + replace_text + "'\n"
+                else:
+                    new_file += line
+        f_in.close()
+        f_out = open(file, "w")
+        f_out.write(new_file)
+        f_out.close()
+
+    def _update_yaml_file(self, file, variable, replace_text):
+        # <<< ERROR: need to update
+        # read as dict and replace key value
         import re
         f = open(file, "r")
         contents = f.read()
         new_contents = re.sub(
             r"{}\s*\:\s*.*\n".format(variable),
-            "{}: '{}'\n".format(variable, replace_text),
+            "{}\s*: '{}'\n".format(variable, replace_text),
             contents)
         f = open(file, "w")
         f.write(new_contents)
