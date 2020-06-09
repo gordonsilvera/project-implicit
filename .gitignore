@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 # GCP credentials
+*/src/*.json
 .json
 
 
